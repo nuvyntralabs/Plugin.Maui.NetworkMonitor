@@ -25,6 +25,7 @@
     <Description>MAUI library for Android and iOS that reports real internet availability, captive portals, network changes, and Wi-Fi/cellular transitions — not just "connected to a network".</Description>
     <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;mauiessentials;network;connectivity;captive-portal;wifi;cellular;internet;reachability</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReleaseNotes>Set package Authors and MIT PackageLicenseExpression.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -40,6 +41,7 @@
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\nuget.png" Pack="true" PackagePath="icon.png" />
   </ItemGroup>
 
   <ItemGroup>
